@@ -1,0 +1,96 @@
+SHARP EV — Sample Knowledge Base Document (POC Test Data)
+
+=== BATTERY & RANGE ===
+
+Maximum Range:
+The SHARP EV has a maximum range of 400 km (WLTP) on a full charge under normal driving conditions.
+Range may vary based on temperature, driving speed, and use of climate control systems.
+
+Battery Capacity:
+The vehicle is equipped with a 75 kWh lithium-ion battery pack.
+Usable capacity is 72 kWh. The battery management system (BMS) reserves 3 kWh to protect cell longevity.
+
+Charging Time:
+- AC Level 2 (7.2 kW): Full charge in approximately 11 hours.
+- DC Fast Charging (100 kW): 80% charge in approximately 35 minutes.
+- DC Ultra Fast (150 kW): 80% charge in approximately 22 minutes.
+Note: Charging speed above 80% is automatically reduced to protect the battery.
+
+=== WARNING LIGHTS ===
+
+Battery Warning Light (Red):
+A red battery icon indicates critically low state of charge (below 5%).
+Action: Find a charging point immediately. Vehicle range is less than 20 km.
+
+Battery Warning Light (Yellow):
+A yellow battery icon indicates low state of charge (below 15%).
+Action: Charge the vehicle within the next 50 km.
+
+Motor Temperature Warning:
+An orange thermometer icon on the motor indicator means the motor is overheating.
+Action: Reduce speed. If the light stays on, pull over safely and allow the vehicle to cool.
+
+Charging Fault (P0AA6):
+This code indicates a high-voltage battery isolation fault.
+Action: Do not attempt to charge. Contact a SHARP authorised service centre immediately.
+
+=== REGENERATIVE BRAKING ===
+
+Activating Regenerative Braking:
+1. Press the REGEN button on the centre console to cycle through modes:
+   - OFF: Standard hydraulic braking only.
+   - LOW: Light regeneration. Suitable for highway driving.
+   - MED: Moderate regeneration. Recommended for city driving.
+   - HIGH: Strong regeneration. One-pedal driving possible.
+
+Energy Recovery:
+In HIGH mode, up to 150 kW of energy can be recovered during deceleration.
+This can extend range by up to 15% in stop-start urban driving.
+
+=== ERROR CODES ===
+
+P0A80 — Replace Hybrid/EV Battery Pack:
+This code indicates one or more battery modules have degraded below acceptable levels.
+Symptoms: Reduced range, reduced performance, warning light.
+Action: Book a diagnostic appointment at a SHARP service centre. Battery replacement may be required.
+
+P1E00 — Electric Motor Control Module:
+The motor control unit has detected an internal fault.
+Action: Restart the vehicle. If the code reappears, do not drive the vehicle. Tow to service centre.
+
+P0A09 — DC/DC Converter Performance:
+The DC/DC converter (which charges the 12V auxiliary battery) is underperforming.
+Symptoms: 12V battery warning, infotainment issues.
+Action: Schedule service within 1 week. Vehicle is safe to drive short distances.
+
+=== CHARGING GUIDANCE ===
+
+Optimal Charging Practice:
+- Keep daily charge level between 20% and 80% for long battery life.
+- Only charge to 100% before long trips.
+- Avoid charging immediately after a fast-charge session — allow 30 minutes to cool.
+
+Charging in Rain:
+The SHARP EV charging port is rated IP55 and is safe to use in rain.
+Always ensure the charging cable connector is dry before inserting into the port.
+
+=== TYRE INFORMATION ===
+
+Recommended Tyre Pressure:
+- Front: 2.5 bar (36 PSI)
+- Rear: 2.7 bar (39 PSI)
+For maximum range on long journeys, increase pressure by 0.2 bar.
+Check pressure monthly and before long trips.
+
+=== SERVICE INTERVALS ===
+
+Annual Service:
+Electric vehicles require less maintenance than petrol/diesel vehicles.
+Recommended annual checks:
+- Brake fluid (replace every 2 years)
+- Cabin air filter (replace every 20,000 km)
+- Tyre rotation (every 10,000 km)
+- 12V auxiliary battery check (every 3 years)
+- Battery health diagnostic (every 30,000 km)
+
+No oil changes required. No timing belt. No spark plugs.
