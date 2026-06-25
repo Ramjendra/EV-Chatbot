@@ -17,6 +17,8 @@ KENDRA_DATA_SOURCE_NAME  = "ev-manuals-s3-source"
 KENDRA_EDITION           = "DEVELOPER_EDITION"                # ENTERPRISE_EDITION for prod
 KENDRA_INDEX_ID          = os.getenv("KENDRA_INDEX_ID", "")  # populated after setup
 KENDRA_TOP_K             = 5
+KENDRA_LANGUAGE          = os.getenv("KENDRA_LANGUAGE", "ja")  # ja = Japanese MeCab tokenizer
+S3_METADATA_PREFIX       = "metadata/"                         # Kendra reads per-doc language JSON here
 
 # ── Bedrock ───────────────────────────────────────────────────────────────────
 BEDROCK_MODEL_ID    = "anthropic.claude-3-haiku-20240307-v1:0"   # Haiku = cost-efficient POC

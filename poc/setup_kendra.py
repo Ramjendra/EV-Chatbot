@@ -11,7 +11,7 @@ from botocore.exceptions import ClientError
 from config import (
     AWS_REGION, S3_BUCKET_NAME, S3_DOCS_PREFIX,
     KENDRA_INDEX_NAME, KENDRA_DATA_SOURCE_NAME, KENDRA_EDITION,
-    KENDRA_ROLE_NAME,
+    KENDRA_ROLE_NAME, S3_METADATA_PREFIX,
 )
 
 iam     = boto3.client("iam",    region_name=AWS_REGION)
@@ -155,9 +155,12 @@ def create_data_source(index_id, role_arn):
                 "S3Configuration": {
                     "BucketName": S3_BUCKET_NAME,
                     "InclusionPrefixes": [S3_DOCS_PREFIX],
+                    "DocumentsMetadataConfiguration": {
+                        "S3Prefix": S3_METADATA_PREFIX,
+                    },
                 }
             },
-            Description="EV manuals from S3",
+            Description="EV manuals from S3 (Japanese — MeCab tokenizer via _language_code:ja)",
         )
         ds_id = resp["Id"]
         print(f"[✓] Data source created: {ds_id}")
